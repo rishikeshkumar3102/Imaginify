@@ -1,8 +1,20 @@
-import { clerkMiddleware,} from "@clerk/nextjs/server";
+import { clerkMiddleware } from "@clerk/nextjs/server";
+import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
 
-export default clerkMiddleware({
-  publicRoutes: ['/api/webhooks/clerk'],
-});
+// Custom handler to manage public routes
+const handler = (req: NextRequest, event: NextFetchEvent) => {
+  const publicRoutes = ['/api/webhooks/clerk'];
+  
+  // If the request matches a public route, continue without Clerk auth
+  if (publicRoutes.some(route => req.nextUrl.pathname.startsWith(route))) {
+    return NextResponse.next();
+  }
+
+  // Otherwise, use Clerk middleware
+  return clerkMiddleware()(req, event);
+};
+
+export default handler;
 
 export const config = {
   matcher: [
@@ -12,3 +24,4 @@ export const config = {
     "/(api|trpc)(.*)",
   ],
 };
+
