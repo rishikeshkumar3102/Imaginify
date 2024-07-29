@@ -1,6 +1,6 @@
 # Imaginify App Overview
 
-![Imaginify Banner](C:\Users\rishi\OneDrive\Pictures\Screenshots) <!-- Update the path to the actual image location -->
+![Imaginify Banner](C:\Users\rishi\OneDrive\Pictures\banner.png) <!-- Update the path to the actual image location -->
 
 **Imaginify** is an advanced AI image SaaS platform designed to provide state-of-the-art image processing capabilities. It integrates a secure payment infrastructure and offers a range of AI-driven features for both professional and personal use. The platform is built to be user-friendly while offering robust functionalities for image manipulation and enhancement.
 
