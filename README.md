@@ -1,8 +1,8 @@
 # Imaginify App Overview
 
-![Imaginify Banner](./public/assets/images/banner.png)
-
 **Imaginify** is an advanced AI image SaaS platform designed to provide state-of-the-art image processing capabilities. It integrates a secure payment infrastructure and offers a range of AI-driven features for both professional and personal use. The platform is built to be user-friendly while offering robust functionalities for image manipulation and enhancement.
+
+![Imaginify Banner](./public/assets/images/banner.png)
 
 ## 🚀 Imaginify Tech Stack
 
