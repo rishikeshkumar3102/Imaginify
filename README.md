@@ -1,8 +1,10 @@
 # Imaginify App Overview
 
+![Imaginify Banner](C:\Users\rishi\OneDrive\Pictures\Screenshots) <!-- Update the path to the actual image location -->
+
 **Imaginify** is an advanced AI image SaaS platform designed to provide state-of-the-art image processing capabilities. It integrates a secure payment infrastructure and offers a range of AI-driven features for both professional and personal use. The platform is built to be user-friendly while offering robust functionalities for image manipulation and enhancement.
 
-## Imaginify Tech Stack
+## 🚀 Imaginify Tech Stack
 
 - **Next.js:** React-based framework for building server-rendered applications.
 - **TypeScript:** Typed superset of JavaScript for enhanced code quality and maintainability.
@@ -13,7 +15,7 @@
 - **Shadcn:** Extensive and thoughtfully crafted library of beautifully designed components built with Radix UI and Tailwind CSS.
 - **TailwindCSS:** Utility-first CSS framework for rapid UI development.
 
-## Imaginify Features
+## 🌟 Imaginify Features
 
 👉 **Authentication and Authorization:** Secure user access with registration, login, and protected routes.
 
